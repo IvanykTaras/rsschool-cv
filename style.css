@@ -1,0 +1,105 @@
+:root{
+    --grey: grey;
+    --aqua: aqua;
+    --blue: blue;
+    --orange: #ffe0b2;
+    --black: black;
+    --white: white;
+}
+
+
+/* -- Features -- */
+.under_line{
+    position: relative;
+}
+
+.under_line::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    background-color: var(--aqua);
+    box-shadow: 0px 6px 10px var(--aqua);
+}
+
+.blue_box{
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid var(--blue);
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,255,255,1) 60%, rgba(2,0,36,1) 100%);
+    transition: all .25s linear;
+}
+
+.blue_box:hover{
+    color: var(--white);
+}
+
+.order_list{
+    padding: 1rem 2rem;
+    list-style:square;
+    border-left: 2px solid var(--blue);
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,255,255,1) 60%, rgba(2,0,36,1) 100%);
+
+}
+
+.link{
+    color: var(--black);
+    text-decoration: none;
+    transition: all .25s linear;
+}
+
+.link:hover{
+    color:  var(--grey);
+}
+
+.block_of_cv{
+    padding: 1rem 0;
+}
+
+/* -- END Features -- */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--blue);
+    background: var(--orange);
+}
+
+p{
+    margin: 0;
+}
+
+
+.main_block_content{
+    margin: 1rem auto;
+    width: 90%;
+}
+
+
+
+
+
+/* Article: Name and Surname*/
+.name_surname{
+
+}
+
+.name_surname__title{}
+
+.name_surname__text{
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img{
+    height: 50px;
+}
