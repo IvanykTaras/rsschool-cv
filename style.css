@@ -93,3 +93,13 @@ p{
 
 .name_surname__text{
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img{
+    height: 50px;
+}
