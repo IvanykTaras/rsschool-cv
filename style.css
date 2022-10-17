@@ -4,6 +4,7 @@
     --blue: blue;
     --orange: #ffe0b2;
     --black: black;
+    --white: white;
 }
 
 
@@ -28,6 +29,11 @@
     border: 2px solid var(--blue);
     background: rgb(0,212,255);
     background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(0,255,255,1) 60%, rgba(2,0,36,1) 100%);
+    transition: all .25s linear;
+}
+
+.blue_box:hover{
+    color: var(--white);
 }
 
 .order_list{
